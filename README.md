@@ -30,4 +30,9 @@ Salvar em ambos:
 python pipeline_parquet.py --destino ambos --conn "postgresql+psycopg2://usuario:senha@localhost:5432/nome_do_banco"
 ---
 
-#🔁 Como Rodar Coleta Contínua (Tempo Real)
+## 🔁 Como Rodar Coleta Contínua (Tempo Real)
+
+Execute o loop de coleta automática:
+
+```bash
+python tempo_real.py
