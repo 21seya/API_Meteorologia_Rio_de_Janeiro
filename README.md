@@ -15,5 +15,10 @@ Clone o projeto:
 git clone https://github.com/21seya/API_Meteorologia_Rio_de_Janeiro
 cd seurepo
 
-```Instale as dependências:
+
+Instale as dependências:
 pip install pandas sqlalchemy psycopg2 requests pytest
+
+
+Salvar apenas em Parquet:
+python pipeline_parquet.py --destino parquet
