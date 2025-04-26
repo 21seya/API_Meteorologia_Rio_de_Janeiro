@@ -22,3 +22,12 @@ pip install pandas sqlalchemy psycopg2 requests pytest
 
 Salvar apenas em Parquet:
 python pipeline_parquet.py --destino parquet
+
+Salvar apenas no PostgreSQL:
+python pipeline_parquet.py --destino postgres --conn "postgresql+psycopg2://usuario:senha@localhost:5432/nome_do_banco"
+
+Salvar em ambos:
+python pipeline_parquet.py --destino ambos --conn "postgresql+psycopg2://usuario:senha@localhost:5432/nome_do_banco"
+---
+
+#🔁 Como Rodar Coleta Contínua (Tempo Real)
